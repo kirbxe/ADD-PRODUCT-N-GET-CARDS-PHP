@@ -1,0 +1,46 @@
+.catalog-conteiner{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 10px;
+
+
+}
+.form-container{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.add-form{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+.card{
+
+width: 250px;
+height: 200px;
+border: 1px black solid;
+border-radius: 13px;
+padding: 20px 10px 40px 10px;
+display: flex;flex-direction: column; justify-content: space-between;
+
+}
+.product-name{
+
+    text-align: center;
+    font-weight: 600;
+}
+
+.product-price::before{
+content: 'Price: ';
+}
+.product-price::after{
+content: '$';
+
+}
